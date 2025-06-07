@@ -144,7 +144,7 @@ Para Fedora 42, el método más fiable y recomendado es utilizar el repositorio 
 3.  **Configura el repositorio oficial de pgAdmin 4 para Fedora:**
     Este comando descarga e instala el paquete `.rpm` que configura automáticamente el repositorio correcto de pgAdmin 4 en tu sistema.
     ```bash
-    sudo rpm -i [https://ftp.postgresql.org/pub/pgadmin/pgadmin4/yum/pgadmin4-fedora-repo-2-1.noarch.rpm](https://ftp.postgresql.org/pub/pgadmin/pgadmin4/yum/pgadmin4-fedora-repo-2-1.noarch.rpm)
+    sudo rpm -i https://ftp.postgresql.org/pub/pgadmin/pgadmin4/yum/pgadmin4-fedora-repo-2-1.noarch.rpm
     ```
 
 4.  **Limpia la caché de DNF:**
